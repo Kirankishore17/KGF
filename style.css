@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Francois+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Signika:wght@600&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.main-header {
+    background-color: rgb(138, 138, 138, 0.8);
+    background-image: url(images/poster.jpg);
+    background-size: cover;
+    background-blend-mode: multiply;
+    padding-bottom: 30px;
+}
+
+.main-header nav{
+    margin: 0;
+}
+
+.nav {
+    text-align: center;
+    font-size: 1.2rem;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.nav ul {
+    margin:0;
+    padding-top: 200px;
+}
+
+.nav li{
+    display: inline;
+    padding: 0 5%;
+}
+
+.nav a {
+    display: inline-block;
+    padding: 0.5rem;
+    text-decoration: none;
+    color: ghostwhite;
+    
+}
+
+.nav a:hover {
+    background-color: rgba(133, 130, 130, 0.3);
+}
+
+
+h1 {
+    font-family: 'Francois One', sans-serif;
+    color: rgb(250, 246, 237);
+    font-size: 5rem;
+    font-weight: normal;
+    margin-bottom: 0;
+    letter-spacing: 10px;
+}
+
+.container {
+    margin:0;
+    padding: 20px;
+    font-family: 'Rubik', sans-serif;
+    color: rgb(46, 43, 43);
+    font-size: 1.1rem;
+    letter-spacing: 1.5px;
+    line-height: 2rem;
+    text-align: justify;
+}
+
+.img {
+    margin: 20px;
+    width: 250px;
+    float: left;
+}
+
+h2 {
+    color: rgb(14, 13, 13);
+    font-weight: normal;
+    font-family: 'Signika', sans-serif;
+    text-align: center;
+    font-size: 2rem;
+    letter-spacing: normal;
+    margin: 0;
+}
+
+.footer {
+    background-color: rgb(20, 18, 20);
+    color: white;
+}
+
+.box {
+    display: flex;
+    padding-top: 5px;
+    padding-bottom: 7px;
+}
+
+.box ul {
+    margin: 0;
+    padding: 0;
+    text-align: right;
+    width:40%;
+}
+
+
+.box li {
+    display: inline;
+}
+
+.box a {
+    text-decoration: none;
+    color: rgb(196, 194, 194);
+    padding: 0 2%;
+
+}
+
+.box a:hover {
+    background-color: whitesmoke;
+    color: black;
+}
+
+.box h2 {
+    color: white;
+    font-size: 1rem;
+    font-weight: normal;
+    width:55%;
+}
+
+@media only screen and (max-device-width: 480px) {
+    .img {
+        float: none;
+        width: 70%;
+        padding-left: 20%;
+    }
+
+    .container { 
+        letter-spacing: 3px;
+        line-height: 2.2rem;
+        padding: 30px;
+    }
+     
+    .container h2 {
+        padding-top: 2rem;
+
+    }
+
+}
